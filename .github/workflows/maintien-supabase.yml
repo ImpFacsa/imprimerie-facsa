@@ -27,7 +27,7 @@ jobs:
           test "$code" = "200"
 
       - name: Récupérer le dépôt
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Trace mensuelle
         run: |
